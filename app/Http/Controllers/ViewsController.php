@@ -9,6 +9,8 @@ class ViewsController extends Controller
 {
     public function home(): View
     {
-      return view('pages.user.home');
+      return view('pages.user.home', [
+        "title" => "Home"
+      ]);
     }
 }
