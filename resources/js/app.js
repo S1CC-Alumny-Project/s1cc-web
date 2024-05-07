@@ -1,5 +1,5 @@
 import './bootstrap';
-import 'flowbite';
+import 'preline'
 
 AOS.init();
 
@@ -31,5 +31,3 @@ function previewImage() {
     imgPreview.src = oFREvent.target.result;
   }
 }
-
-console.log('tes')
